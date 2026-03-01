@@ -1,0 +1,52 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Link WhatsApp to company phone number and redesign logo to gold 'SS' monogram",
+  "requirements": [
+    {
+      "id": "REQ-19",
+      "summary": "Update all WhatsApp entry points to use company phone number +91 891 883 2546",
+      "acceptanceCriteria": [
+        "The backend whatsApp link value is 'https://wa.me/918918832546'",
+        "The floating WhatsAppButton component fetches and uses this link, opening a WhatsApp chat to +91 891 883 2546",
+        "The 'Order Sample' button in HeroSection links to the same WhatsApp number",
+        "The 'Message on WhatsApp' button in QuoteSection links to the same WhatsApp number"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhatsAppButton.tsx",
+          "operation": "modify",
+          "description": "Verify that the WhatsAppButton component correctly fetches and uses the WhatsApp link from the backend via useWhatsAppLink query hook. Ensure the link opens https://wa.me/918918832546 when clicked. The component already uses the query hook pattern, so confirm it properly handles the updated backend value."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the 'Order Sample' CTA button to fetch and use the WhatsApp link from the backend via the useWhatsAppLink query hook. Replace any hardcoded WhatsApp URL with the dynamic link that resolves to https://wa.me/918918832546. Ensure the button opens the WhatsApp chat in a new window/tab with target='_blank' and rel='noopener noreferrer'."
+        },
+        {
+          "path": "frontend/src/components/QuoteSection.tsx",
+          "operation": "modify",
+          "description": "Update the 'Message on WhatsApp' button to fetch and use the WhatsApp link from the backend via the useWhatsAppLink query hook. Replace any hardcoded WhatsApp URL with the dynamic link that resolves to https://wa.me/918918832546. Ensure the button opens the WhatsApp chat in a new window/tab with target='_blank' and rel='noopener noreferrer'."
+        }
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "summary": "Replace text logo with chic gold 'SS' monogram in navigation bar",
+      "acceptanceCriteria": [
+        "The Navigation bar logo area displays a stylized 'SS' monogram in gold gradient instead of plain text",
+        "The monogram uses the site's warm gold color (#C9A84C or equivalent OKLCH token)",
+        "The logo is crisp and legible on both desktop and mobile viewports",
+        "The overall navigation layout remains intact and the hamburger menu still works on mobile",
+        "The design feels chic and consistent with the existing luxury charcoal/gold aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Replace the current text-based logo with an inline SVG or styled HTML element featuring a chic 'SS' monogram. Use a gold gradient (leveraging the existing gold OKLCH token from tailwind.config.js, approximately #C9A84C) with elegant thick typography. The letters 'SS' should be the focal point with a refined, high-end feel. Optionally include 'SS GLOBAL TRADES' in smaller weight beside the monogram. Ensure the logo renders cleanly on both desktop and mobile viewports while maintaining the existing navigation layout and mobile hamburger menu functionality. The design must be consistent with the luxury charcoal/gold aesthetic defined in frontend/src/index.css and frontend/tailwind.config.js."
+        }
+      ]
+    }
+  ]
+}

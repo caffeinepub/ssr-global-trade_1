@@ -1,0 +1,44 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-whatsapp-link-stored-in-the-backend-to-use-the-company-phone-number-91-891-883-2546-so-that-all-whatsapp-entry-points-floating-chat-button-order-sample-cta-in-the-hero-message-on-whatsapp-button-in-the-quote-section-resolve-to-https-wa-me-918918832546",
+      "featureTitle": "Update the WhatsApp link stored in the backend to use the company phone number +91 891 883 2546, so that all WhatsApp entry points (floating chat button, 'Order Sample' CTA in the hero, 'Message on WhatsApp' button in the quote section) resolve to https://wa.me/918918832546",
+      "files": [
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/WhatsAppButton.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-text-based-logo-in-the-navigation-bar-with-a-chic-gold-styled-ss-monogram-mark-the-logo-should-be-an-inline-svg-or-styled-html-element-featuring-the-letters-ss-in-a-luxury-gold-gradient-using-the-site-s-existing-gold-token-approximately-c9a84c-with-elegant-thick-typography-and-a-refined-high-end-feel-consistent-with-the-overall-luxury-b2b-theme-the-brand-name-ss-global-trades-may-appear-beside-it-in-a-smaller-weight-the-logo-must-render-cleanly-on-both-desktop-and-mobile",
+      "featureTitle": "Replace the text-based logo in the Navigation bar with a chic, gold-styled 'SS' monogram mark. The logo should be an inline SVG or styled HTML element featuring the letters 'SS' in a luxury gold gradient (using the site's existing gold token, approximately #C9A84C), with elegant thick typography and a refined, high-end feel consistent with the overall luxury B2B theme. The brand name 'SS GLOBAL TRADES' may appear beside it in a smaller weight. The logo must render cleanly on both desktop and mobile.",
+      "files": [
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

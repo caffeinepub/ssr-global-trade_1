@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 11,
+  "summary": "B2B website for SS Global Trades — an India-based premium human hair export company targeting global buyers (brands, salons, wholesalers). Site includes hero section, about us, product catalog, quality process, testimonials, FAQ/shipping policy, and a quote request form with WhatsApp contact. Contact details: phone +91 891 883 2546, location Haldia, West Bengal, India, pincode 721657. Design uses large, thick fonts with an attractive luxury B2B aesthetic.",
+  "architectural_notes": [
+    "Single-page website (no routing needed); all sections on one scrollable page",
+    "Company name updated to SS Global Trades (was SS Global Trade); phone: +91 891 883 2546; location: Haldia, West Bengal, India, pincode 721657",
+    "Design requirement: large font sizes with thick/bold font style for an attractive premium look",
+    "WhatsApp links must use phone number +91 891 883 2546 (wa.me/918918832546)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-visually-striking-hero-section-with-the-headline-premium-human-hair-global-standards-trusted-worldwide-a-subheadline-delivering-100-authentic-human-hair-from-india-to-global-brands-salons-and-wholesalers-quality-you-can-trust-supply-you-can-scale-two-cta-buttons-request-a-quote-scrolling-to-the-quote-form-and-order-sample-linking-to-whatsapp-and-four-trust-badge-icons-100-authentic-global-shipping-low-moq-custom-branding",
+      "title": "Implement a visually striking hero section with the headline 'Premium Human Hair. Global Standards. Trusted Worldwide.', a subheadline 'Delivering 100% authentic human hair from India to global brands, salons, and wholesalers. Quality you can trust. Supply you can scale.', two CTA buttons ('Request a Quote' scrolling to the quote form and 'Order Sample' linking to WhatsApp), and four trust badge icons (100% Authentic, Global Shipping, Low MOQ, Custom Branding).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-us-section-describing-ssr-global-trade-as-an-india-based-human-hair-export-company-including-the-mission-statement-about-quality-transparency-and-long-term-partnerships-and-three-value-pillars-quality-first-ethical-sourcing-and-global-reach-each-with-a-short-description",
+      "title": "Build an 'About Us' section describing SSR Global Trade as an India-based human hair export company, including the mission statement about quality, transparency, and long-term partnerships, and three value pillars: Quality First, Ethical Sourcing, and Global Reach — each with a short description.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-our-products-section-showcasing-five-product-cards-premium-hair-bundles-100-raw-remy-human-hair-bundles-closures-frontals-custom-wigs-bulk-hair-supply-and-oem-private-label-packaging-each-with-a-title-short-description-and-a-generated-product-image-include-a-note-custom-lengths-textures-and-gram-options-available",
+      "title": "Create a 'Our Products' section showcasing five product cards: Premium Hair Bundles (100% Raw & Remy Human Hair Bundles), Closures & Frontals, Custom Wigs, Bulk Hair Supply, and OEM & Private Label Packaging — each with a title, short description, and a generated product image. Include a note: 'Custom lengths, textures, and gram options available.'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-why-choose-ssr-global-trade-section-listing-six-key-differentiators-with-icons-100-authentic-human-hair-strict-quality-control-process-custom-branding-private-label-services-low-moq-available-fast-secure-international-shipping-dhl-fedex-and-transparent-pricing-reliable-communication",
+      "title": "Build a 'Why Choose SSR Global Trade?' section listing six key differentiators with icons: 100% Authentic Human Hair, Strict Quality Control Process, Custom Branding & Private Label Services, Low MOQ Available, Fast & Secure International Shipping (DHL / FedEx), and Transparent Pricing & Reliable Communication.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-our-process-section-displaying-five-numbered-steps-in-order-01-ethical-sourcing-02-careful-sorting-quality-inspection-03-professional-cleaning-processing-04-secure-packaging-05-worldwide-delivery-each-with-a-short-description-use-a-horizontal-timeline-or-step-indicator-layout-on-desktop",
+      "title": "Implement an 'Our Process' section displaying five numbered steps in order: 01 Ethical Sourcing, 02 Careful Sorting & Quality Inspection, 03 Professional Cleaning & Processing, 04 Secure Packaging, 05 Worldwide Delivery — each with a short description. Use a horizontal timeline or step-indicator layout on desktop.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-what-our-clients-say-testimonials-section-with-three-client-reviews-sarah-johnson-hair-salon-owner-los-angeles-usa-maria-rodriguez-hair-brand-founder-miami-usa-and-emma-williams-wholesale-distributor-london-uk-each-with-their-full-quote-name-title-and-location",
+      "title": "Create a 'What Our Clients Say' testimonials section with three client reviews: Sarah Johnson (Hair Salon Owner, Los Angeles, USA), Maria Rodriguez (Hair Brand Founder, Miami, USA), and Emma Williams (Wholesale Distributor, London, UK) — each with their full quote, name, title, and location.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-faq-shipping-policy-section-with-six-expandable-accordion-items-1-what-is-your-minimum-order-quantity-moq-2-how-long-does-shipping-take-3-do-you-provide-samples-4-what-about-customs-duties-and-taxes-5-what-is-your-return-and-refund-policy-6-can-you-provide-custom-packaging-and-branding-each-with-a-sensible-placeholder-answer",
+      "title": "Build an FAQ & Shipping Policy section with six expandable accordion items: (1) What is your Minimum Order Quantity (MOQ)?, (2) How long does shipping take?, (3) Do you provide samples?, (4) What about customs duties and taxes?, (5) What is your return and refund policy?, (6) Can you provide custom packaging and branding? — each with a sensible placeholder answer.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-get-a-quote-section-containing-a-a-contact-form-with-fields-for-full-name-email-company-name-product-dropdown-hair-bundles-closures-frontals-custom-wigs-bulk-supply-oem-private-label-and-requirements-textarea-plus-a-request-quote-submit-button-that-stores-the-submission-in-the-backend-b-a-message-on-whatsapp-quick-contact-button-linking-to-whatsapp-c-contact-info-email-info-ssrglobaltrade-com-phone-91-xxx-xxx-xxxx-location-india-d-business-hours-mon-fri-9-6-ist-sat-10-4-ist-sunday-closed",
+      "title": "Implement a 'Get a Quote' section containing: (a) a contact form with fields for Full Name, Email, Company Name, Product (dropdown: Hair Bundles, Closures & Frontals, Custom Wigs, Bulk Supply, OEM/Private Label), and Requirements (textarea), plus a 'Request Quote' submit button that stores the submission in the backend; (b) a 'Message on WhatsApp' quick-contact button linking to WhatsApp; (c) contact info: Email info@ssrglobaltrade.com, Phone +91 XXX XXX XXXX, Location India; (d) business hours (Mon–Fri 9–6 IST, Sat 10–4 IST, Sunday Closed).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-sticky-navigation-header-with-the-ssr-global-trade-logo-name-and-links-to-sections-about-us-products-quality-process-and-contact-get-a-quote-on-mobile-collapse-into-a-hamburger-menu",
+      "title": "Build a sticky navigation header with the SSR Global Trade logo/name and links to sections: About Us, Products, Quality Process, and Contact (Get a Quote). On mobile, collapse into a hamburger menu.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-site-footer-containing-company-name-ssr-global-trade-with-tagline-quick-links-about-us-products-quality-process-contact-products-links-hair-bundles-closures-frontals-custom-wigs-bulk-supply-and-contact-info-email-phone-location-include-a-copyright-line-at-the-bottom",
+      "title": "Build a site footer containing: company name 'SSR Global Trade' with tagline, Quick Links (About Us, Products, Quality Process, Contact), Products links (Hair Bundles, Closures & Frontals, Custom Wigs, Bulk Supply), and contact info (email, phone, location). Include a copyright line at the bottom.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-luxury-b2b-visual-theme-throughout-the-site-deep-charcoal-near-black-background-with-warm-gold-c9a84c-or-similar-as-the-primary-accent-off-white-cream-text-for-readability-elegant-serif-or-refined-sans-serif-typography-for-headings-and-generous-whitespace-use-subtle-gold-dividers-and-gradient-accents-to-convey-premium-quality-maintain-a-consistent-high-end-feel-across-all-sections",
+      "title": "Apply a cohesive luxury B2B visual theme throughout the site: deep charcoal/near-black background with warm gold (#C9A84C or similar) as the primary accent, off-white/cream text for readability, elegant serif or refined sans-serif typography for headings, and generous whitespace. Use subtle gold dividers and gradient accents to convey premium quality. Maintain a consistent, high-end feel across all sections.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-floating-whatsapp-chat-button-fixed-to-the-bottom-right-corner-of-the-page-the-button-should-link-to-the-ssr-global-trade-whatsapp-contact-using-the-same-whatsapp-link-already-stored-in-the-backend-it-should-display-the-whatsapp-icon-with-a-pulsing-green-glow-effect-include-a-small-tooltip-label-chat-on-whatsapp-on-hover-and-remain-visible-across-all-sections-of-the-page-on-both-desktop-and-mobile",
+      "title": "Add a floating WhatsApp chat button fixed to the bottom-right corner of the page. The button should link to the SSR Global Trade WhatsApp contact (using the same WhatsApp link already stored in the backend). It should display the WhatsApp icon with a pulsing green glow effect, include a small tooltip label 'Chat on WhatsApp' on hover, and remain visible across all sections of the page on both desktop and mobile.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-every-occurrence-of-ssr-global-trade-with-ss-global-trade-across-all-frontend-components-including-the-navigation-bar-logo-name-hero-section-about-section-whychoose-section-footer-company-name-and-copyright-line-and-any-other-visible-text-referencing-the-old-brand-name",
+      "title": "Replace every occurrence of 'SSR Global Trade' with 'SS Global Trade' across all frontend components, including the Navigation bar logo/name, Hero section, About section, WhyChoose section, Footer company name and copyright line, and any other visible text referencing the old brand name.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-every-visible-instance-of-the-company-name-to-ss-global-trades-all-caps-where-used-as-a-brand-mark-title-case-elsewhere-across-all-frontend-components-navigation-bar-logo-hero-section-about-section-why-choose-section-testimonials-section-update-quotes-referencing-old-name-footer-company-name-and-copyright-line-page-title-in-index-html-and-any-other-text-referencing-the-old-name",
+      "title": "Update every visible instance of the company name to 'SS GLOBAL TRADES' (all caps where used as a brand mark, title-case elsewhere) across all frontend components: Navigation bar logo, Hero section, About section, Why Choose section, Testimonials section (update quotes referencing old name), Footer company name and copyright line, page title in index.html, and any other text referencing the old name.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-contact-detail-occurrences-across-the-frontend-quotesection-footer-backend-stored-values-to-phone-91-891-883-2546-location-haldia-west-bengal-india-721657-email-info-ssglobaltrade-com-ensure-the-pincode-721657-is-displayed-alongside-the-location-string-wherever-the-address-appears",
+      "title": "Update all contact detail occurrences across the frontend (QuoteSection, Footer, backend stored values) to: Phone +91 891 883 2546, Location 'Haldia, West Bengal, India – 721657', Email info@ssglobaltrade.com. Ensure the pincode 721657 is displayed alongside the location string wherever the address appears.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-the-two-uploaded-real-product-photos-image-png-bulk-wavy-hair-bundles-with-coloured-rubber-bands-on-a-red-surface-image-1-png-straight-hair-bundles-with-green-ribbon-ties-on-a-floor-into-the-site-use-image-png-as-the-hero-section-background-or-a-prominent-hero-visual-use-both-images-within-the-products-section-place-image-png-on-the-bulk-hair-supply-card-and-image-1-png-on-the-premium-hair-bundles-card-save-them-as-static-assets-at-frontend-public-assets-generated-product-bulk-hair-jpg-and-frontend-public-assets-generated-product-bundles-jpg-respectively",
+      "title": "Integrate the two uploaded real product photos (image.png — bulk wavy hair bundles with coloured rubber bands on a red surface; image-1.png — straight hair bundles with green ribbon ties on a floor) into the site. Use image.png as the hero section background or a prominent hero visual. Use both images within the Products section — place image.png on the 'Bulk Hair Supply' card and image-1.png on the 'Premium Hair Bundles' card. Save them as static assets at frontend/public/assets/generated/product-bulk-hair.jpg and frontend/public/assets/generated/product-bundles.jpg respectively.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-large-thick-heavy-weight-typography-throughout-the-entire-site-all-section-headings-must-use-font-weight-800-or-900-e-g-font-black-or-font-extrabold-in-tailwind-and-a-minimum-font-size-of-2-5rem-on-desktop-sub-headings-and-card-titles-must-use-font-weight-700-minimum-body-text-must-be-at-least-1rem-with-font-weight-500-use-a-bold-impactful-sans-serif-or-slab-serif-google-font-for-headings-e-g-playfair-display-bold-montserrat-extrabold-or-oswald-bold-to-give-a-thick-attractive-appearance-consistent-with-the-luxury-b2b-gold-charcoal-theme",
+      "title": "Apply large, thick (heavy-weight) typography throughout the entire site. All section headings must use font-weight 800 or 900 (e.g., font-black or font-extrabold in Tailwind) and a minimum font size of 2.5rem on desktop. Sub-headings and card titles must use font-weight 700 minimum. Body text must be at least 1rem with font-weight 500. Use a bold, impactful sans-serif or slab-serif Google Font for headings (e.g., Playfair Display Bold, Montserrat ExtraBold, or Oswald Bold) to give a thick, attractive appearance consistent with the luxury B2B gold/charcoal theme.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-whatsapp-link-stored-in-the-backend-to-use-the-company-phone-number-91-891-883-2546-so-that-all-whatsapp-entry-points-floating-chat-button-order-sample-cta-in-the-hero-message-on-whatsapp-button-in-the-quote-section-resolve-to-https-wa-me-918918832546",
+      "title": "Update the WhatsApp link stored in the backend to use the company phone number +91 891 883 2546, so that all WhatsApp entry points (floating chat button, 'Order Sample' CTA in the hero, 'Message on WhatsApp' button in the quote section) resolve to https://wa.me/918918832546",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-text-based-logo-in-the-navigation-bar-with-a-chic-gold-styled-ss-monogram-mark-the-logo-should-be-an-inline-svg-or-styled-html-element-featuring-the-letters-ss-in-a-luxury-gold-gradient-using-the-site-s-existing-gold-token-approximately-c9a84c-with-elegant-thick-typography-and-a-refined-high-end-feel-consistent-with-the-overall-luxury-b2b-theme-the-brand-name-ss-global-trades-may-appear-beside-it-in-a-smaller-weight-the-logo-must-render-cleanly-on-both-desktop-and-mobile",
+      "title": "Replace the text-based logo in the Navigation bar with a chic, gold-styled 'SS' monogram mark. The logo should be an inline SVG or styled HTML element featuring the letters 'SS' in a luxury gold gradient (using the site's existing gold token, approximately #C9A84C), with elegant thick typography and a refined, high-end feel consistent with the overall luxury B2B theme. The brand name 'SS GLOBAL TRADES' may appear beside it in a smaller weight. The logo must render cleanly on both desktop and mobile.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, tagline, CTA buttons (Request a Quote, Order Sample), and trust badges (100% Authentic, Global Shipping, Low MOQ, Custom Branding)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section describing SSR Global Trade's mission, values (Quality First, Ethical Sourcing, Global Reach)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Products section showcasing: Premium Hair Bundles, Closures & Frontals, Custom Wigs, Bulk Hair Supply, OEM & Private Label Packaging",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Us section listing key differentiators (authentic hair, quality control, custom branding, low MOQ, DHL/FedEx shipping, transparent pricing)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Our Process section with 5 steps: Ethical Sourcing, Sorting & Inspection, Cleaning & Processing, Secure Packaging, Worldwide Delivery",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Testimonials section with 3 client reviews (Sarah Johnson, Maria Rodriguez, Emma Williams)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "FAQ & Shipping Policy section with expandable questions about MOQ, shipping time, samples, customs, returns, and custom packaging",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Get a Quote contact form with fields for name, email, company, product selection, and requirements textarea; plus WhatsApp quick contact button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Footer with quick links, product links, contact info (email, phone, location, business hours), and company tagline",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add a floating WhatsApp chat button so global buyers can reach SSR Global Trade instantly",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Update the backend Motoko actor to replace all hardcoded references to 'SSR Global Trade' (e.g., in contact info, company name fields, or any stored strings) with 'SS Global Trade'.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Update company name to 'SS Global Trades' across all sections, update phone to +91 891 883 2546, location to Haldia, West Bengal, India with pincode 721657, and apply large thick fonts with an attractive design",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Link all WhatsApp buttons/floating chat to phone number +91 891 883 2546",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Replace the navigation logo text with a chic 'SS' gold-designed logo mark (stylized gold monogram or icon)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SSR Global Trade",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

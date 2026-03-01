@@ -1,0 +1,61 @@
+{
+  "kind": "build_request",
+  "title": "Link WhatsApp to company phone number and redesign logo to gold 'SS' monogram",
+  "projectName": "SS Global Trades",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-19",
+      "text": "Update the WhatsApp link stored in the backend to use the company phone number +91 891 883 2546, so that all WhatsApp entry points (floating chat button, 'Order Sample' CTA in the hero, 'Message on WhatsApp' button in the quote section) resolve to https://wa.me/918918832546",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "whatsapp has to be linked to the same phone no. mentioned."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The backend whatsApp link value is 'https://wa.me/918918832546'",
+        "The floating WhatsAppButton component fetches and uses this link, opening a WhatsApp chat to +91 891 883 2546",
+        "The 'Order Sample' button in HeroSection links to the same WhatsApp number",
+        "The 'Message on WhatsApp' button in QuoteSection links to the same WhatsApp number"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Replace the text-based logo in the Navigation bar with a chic, gold-styled 'SS' monogram mark. The logo should be an inline SVG or styled HTML element featuring the letters 'SS' in a luxury gold gradient (using the site's existing gold token, approximately #C9A84C), with elegant thick typography and a refined, high-end feel consistent with the overall luxury B2B theme. The brand name 'SS GLOBAL TRADES' may appear beside it in a smaller weight. The logo must render cleanly on both desktop and mobile.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "change the logo to SS with a nice gold design. keep it chic"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Navigation bar logo area displays a stylized 'SS' monogram in gold gradient instead of plain text",
+        "The monogram uses the site's warm gold color (#C9A84C or equivalent OKLCH token)",
+        "The logo is crisp and legible on both desktop and mobile viewports",
+        "The overall navigation layout remains intact and the hamburger menu still works on mobile",
+        "The design feels chic and consistent with the existing luxury charcoal/gold aesthetic"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change any files under frontend/src/hooks/ (immutable paths)",
+    "Do not modify frontend/src/main.tsx or frontend/src/components/ui/",
+    "WhatsApp number used must be exactly +91 891 883 2546 (wa.me/918918832546)"
+  ],
+  "nonGoals": [
+    "Redesigning any section other than the navigation logo",
+    "Changing the overall color palette or typography system",
+    "Adding new backend endpoints beyond updating the WhatsApp link value"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
