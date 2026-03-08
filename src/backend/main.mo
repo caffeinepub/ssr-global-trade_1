@@ -49,14 +49,14 @@ actor {
   let quoteRequests = Map.empty<Text, QuoteRequest>();
 
   let contactInfo = {
-    email = "info@ssglobaltrade.com";
+    email = "infossglobaltrade.in@gmail.com";
     phone = "+91 891 883 2546";
     location = "Haldia, West Bengal, India - 721657";
   };
 
   let businessHours = {
-    mondayToFriday = "9:00 - 18:00 IST";
-    saturday = "10:00 - 16:00 IST";
+    mondayToFriday = "9:00 AM - 6:00 PM IST";
+    saturday = "10:00 AM - 2:00 PM IST";
     sunday = "Closed";
   };
 

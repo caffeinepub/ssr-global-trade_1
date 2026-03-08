@@ -226,7 +226,7 @@ export default function QuoteSection() {
                 <button
                   type="submit"
                   disabled={submitMutation.isPending}
-                  className="w-full py-4 gold-gradient text-gold font-black text-sm tracking-widest uppercase hover:opacity-90 transition-opacity disabled:opacity-60 flex items-center justify-center gap-2 shadow-gold"
+                  className="w-full py-4 gold-gradient text-charcoal-900 font-black text-sm tracking-widest uppercase hover:opacity-90 transition-opacity disabled:opacity-60 flex items-center justify-center gap-2 shadow-gold"
                 >
                   {submitMutation.isPending ? (
                     <>

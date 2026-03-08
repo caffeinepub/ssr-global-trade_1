@@ -75,7 +75,7 @@ export default function HeroSection() {
             <button
               type="button"
               onClick={scrollToQuote}
-              className="px-8 py-4 gold-gradient text-gold font-black text-sm tracking-widest uppercase hover:opacity-90 transition-opacity shadow-gold"
+              className="px-8 py-4 gold-gradient text-charcoal-900 font-black text-sm tracking-widest uppercase hover:opacity-90 transition-opacity shadow-gold"
             >
               Request a Quote
             </button>
